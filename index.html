@@ -1,28 +1,88 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<title>Accueil</title>
+		<title>CV HTML/CSS</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet">
+		<script src="https://use.fontawesome.com/42686f9829.js"></script>
 	</head>
 	<body>
 		<header>
-			<p>&lt;h1 id="main-title"&gt;Bienvenue sur Mon CV !&lt;/h1&gt;</p>
-			<p>&lt;h2 id="main-subtitle"&gt;CV HTML/CSS&lt;/h2&gt;</p>
-			<p>&lt;nav class="nav-menu"&gt;</p>
-			<p>	&lt;a id="formation" href="assets/rubriques/formations.html"&gt;
-			<!--<h1 id="main-title">Bienvenue sur Mon CV !</h1>
-			<h2 id="main-subtitle">CV HTML/CSS</h2>
-			<nav class="nav-menu">
-				<a id="formation" href="assets/rubriques/formations.html"><button>Formations</button></a>
-				<a id="experiences" href="assets/rubriques/exp_pro.html"><button>Experiences</button></a>
-				<a id="competences" href="assets/rubriques/compétences.html"><button>Compétences</button></a>
-				<a id="divers" href="assets/rubriques/divers.html"><button>Divers</button></a>
-				<a id="contact" href="assets/rubriques/contact.html"><button>Contact</button></a>
-			</nav>-->
+			<h1>Folders</h1>
+			<details class="first">
+				<summary><i class="fa fa-folder" aria-hidden="true"></i> CV HTML-CSS</summary>
+				<details class="second">
+					<summary><i class="fa fa-folder" aria-hidden="true"></i> assets</summary>
+					<details class="third">
+						<summary><i class="fa fa-folder" aria-hidden="true"></i> CSS</summary>
+						<a class="details-link" href="assets/rubriques/style.html"><p class="fourth"><i class="fa fa-file-code-o" aria-hidden="true"></i> style.css</p></a>
+					</details>
+					<details class="third">
+						<summary><i class="fa fa-folder" aria-hidden="true"></i> images</summary>
+					</details>
+					<details class="third">
+						<summary><i class="fa fa-folder" aria-hidden="true"></i> rubriques</summary>
+						<a class="details-link" href="assets/rubriques/competences.html"><p class="fourth"><i class="fa fa-file-code-o" aria-hidden="true"></i> competences.html</p></a>
+						<a class="details-link" href="assets/rubriques/contact.html"><p class="fourth"><i class="fa fa-file-code-o" aria-hidden="true"></i> contact.html</p></a>
+						<a class="details-link" href="assets/rubriques/divers.html"><p class="fourth"><i class="fa fa-file-code-o" aria-hidden="true"></i> divers.html</p></a>
+						<a class="details-link" href="assets/rubriques/exp_pro.html"><p class="fourth"><i class="fa fa-file-code-o" aria-hidden="true"></i> exp-pro.html</p></a>
+						<a class="details-link" href="assets/rubriques/formations.html"><p class="fourth"><i class="fa fa-file-code-o" aria-hidden="true"></i> formations.html</p></a>
+						<a class="details-link" href="style.html"><p class="fourth"><i class="fa fa-file-code-o" aria-hidden="true"></i> style.html</p></a>
+					</details>
+				</details>
+				<a class="details-link" href="#"><p class="second h-active"><i class="fa fa-file-code-o" aria-hidden="true"></i> index.html</p></a>
+			</details>
 		</header>
 		<main>
-			<!--img id="main-img" src=""-->
+			<div class="up-menu">
+				<div class="index-tab tab active"><a class="up-menu-nav" href="#">index.html</a></div>
+				<div class="formations-tab tab"><a class="up-menu-nav" href="assets/rubriques/formations.html">formations.html</a></div>
+				<div class="exp-pro-tab tab"><a class="up-menu-nav" href="assets/rubriques/exp_pro.html">exp-pro.html</a></div>
+				<div class="competences-tab tab"><a class="up-menu-nav" href="assets/rubriques/competences.html">competences.html</a></div>
+				<div class="divers-tab tab"><a class="up-menu-nav" href="assets/rubriques/divers.html">divers.html</a></div>
+				<div class="contact-tab tab"><a class="up-menu-nav" href="assets/rubriques/contact.html">contact.html</a></div>
+				<div class="style-tab tab"><a class="up-menu-nav" href="assets/rubriques/style.html">style.css</a></div>
+
+			</div>
+			<div class="page-container">
+				<div class="main-content">
+					<p class="a">&lt;<span class="balise">!DOCTYPE</span> html&gt;</p>
+					<p class="a">&lt;<span class="balise">html</span> <span class="attribut">lang</span>=<span class="argument">"fr"</span>&gt;</p>
+					<p class="b">&lt;<span class="balise">head</span>&gt;</p>
+					<p class="c">&lt;<span class="balise">title</span>&gt;CV HTML/CSS&lt;/<span class="balise">title</span>&gt;</p>
+					<p class="c">&lt;<span class="balise">meta</span> <span class="attribut">charset</span>=<span class="argument">"utf-8"</span>&gt;</p>
+					<p class="c">&lt;<span class="balise">link</span> <span class="attribut">rel</span>=<span class="argument">"stylesheet"</span> <span class="attribut">type</span>=<span class="argument">"text/css"</span> <span class="attribut">href</span>=<span class="argument">"assets/CSS/style.css"</span>&gt;</p>
+					<p class="b">&lt;/<span class="balise">head</span>&gt;</p>
+					<p class="b">&lt;<span class="balise">body</span>&gt;</p>
+					<p class="c">&lt;<span class="balise">header</span>&gt;</p>
+					<p class="d">&lt;<span class="balise">h1</span> <span class="attribut">id</span>=<span class="argument">"main-title"</span>&gt;Bienvenue sur Mon CV !&lt;/<span class="balise">h1</span>&gt;</p>
+					<p class="d">&lt;<span class="balise">h2</span> <span class="attribut">id</span>=<span class="argument">"main-subtitle"</span>&gt;CV HTML/CSS&lt;/<span class="balise">h2</span>&gt;</p>
+					<p class="d">&lt;/<span class="balise">header</span>&gt;</p>
+					<p class="c">&lt;<span class="balise">main</span>&gt;</p>
+					<p class="d">&lt;<span class="balise">h2</span>&gt;Présentation&lt;/<span class="balise">h2</span>&gt;</p>
+
+					<div class="paragraphe d"><p>&lt;<span class="balise">p</span>&gt;Bonjour, je m'appelle Idriss Cornuau et je vous souhaite la bienvenue sur mon CV version HTML/CSS. Vous trouverez ci joint les différentes rubriques me concernant, j'espère que vous passerez une agréable visite et que peut être même ce que vous verrez vous plaira !&lt;/<span class="balise">p</span>&gt;</p></div>
+
+					<p class="d">&lt;<span class="balise">nav</span> <span class="attribut">class</span>=<span class="argument">"nav-menu"</span>&gt;</p>
+
+					<div class="display-flex"><p class="e">&lt;<span class="balise">a</span> <span class="attribut">id</span>=<span class="argument">"formations"</span> <span class="attribut">href</span>=<span class="argument">"assets/rubriques/formations.html"</span>&gt;</p><a class="main-link" href="assets/rubriques/formations.html">Formations</a><p>&lt;/<span class="balise">a</span>&gt;</p></div>
+
+					<div class="display-flex"><p class="e">&lt;<span class="balise">a</span> <span class="attribut">id</span>=<span class="argument">"experiences"</span> <span class="attribut">href</span>=<span class="argument">"assets/rubriques/exp_pro.html"</span>&gt;</p><a class="main-link" href="assets/rubriques/experiences.html">Expériences</a><p>&lt;/<span class="balise">a</span>&gt;</p></div>
+
+					<div class="display-flex"><p class="e">&lt;<span class="balise">a</span> <span class="attribut">id</span>=<span class="argument">"competences"</span> <span class="attribut">href</span>=<span class="argument">"assets/rubriques/competences.html"</span>&gt;</p><a class="main-link" href="assets/rubriques/competences.html">Compétences</a><p>&lt;/<span class="balise">a</span>&gt;</p></div>
+
+					<div class="display-flex"><p class="e">&lt;<span class="balise">a</span> <span class="attribut">id</span>=<span class="argument">"divers"</span> <span class="attribut">href</span>=<span class="argument">"assets/rubriques/divers.html"</span>&gt;</p><a class="main-link" href="assets/rubriques/divers.html">Divers</a><p>&lt;/<span class="balise">a</span>&gt;</p></div>
+
+					<div class="display-flex"><p class="e">&lt;<span class="balise">a</span> <span class="attribut">id</span>=<span class="argument">"contact"</span> <span class="attribut">href</span>=<span class="argument">"assets/rubriques/contact.html"</span>&gt;</p><a class="main-link" href="assets/rubriques/contact.html">Contact</a><p>&lt;/<span class="balise">a</span>&gt;</p></div>
+
+					<p class="d">&lt;/<span class="balise">nav</span>&gt;</p>
+					<p class="c">&lt;/<span class="balise">main</span>&gt;</p>
+					<p class="b">&lt;/<span class="balise">body</span>&gt;</p>
+					<p class="a">&lt;/<span class="balise">html</span>&gt;</p>
+				</div>
+				<div class="slide-bar"></div>
+			</div>
 		</main>
 		<footer>
 		

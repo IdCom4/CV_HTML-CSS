@@ -8,7 +8,7 @@
 		<script src="https://use.fontawesome.com/42686f9829.js"></script>
 	</head>
 	<body>
-		<header>
+		<header style="height: 2500px;">
 			<h1>Folders</h1>
 			<details class="first">
 				<summary><i class="fa fa-folder" aria-hidden="true"></i> CV HTML-CSS</summary>
@@ -23,12 +23,14 @@
 					</details>
 					<details class="third">
 						<summary><i class="fa fa-folder" aria-hidden="true"></i> rubriques</summary>
-						<a class="details-link" href="competences.html"><p class="fourth"><i class="fa fa-file-code-o" aria-hidden="true"></i> competences.html</p></a>
-						<a class="details-link" href="contact.html"><p class="fourth"><i class="fa fa-file-code-o" aria-hidden="true"></i> contact.html</p></a>
-						<a class="details-link" href="divers.html"><p class="fourth"><i class="fa fa-file-code-o" aria-hidden="true"></i> divers.html</p></a>
-						<a class="details-link" href="#"><p class="fourth h-active"><i class="fa fa-file-code-o" aria-hidden="true"></i> exp-pro.html</p></a>
-						<a class="details-link" href="formations.html"><p class="fourth"><i class="fa fa-file-code-o" aria-hidden="true"></i> formations.html</p></a>
-						<a class="details-link" href="style.html"><p class="fourth"><i class="fa fa-file-code-o" aria-hidden="true"></i> style.html</p></a>
+						<div style="margin-left: 20px;">
+							<a class="details-link" href="competences.html"><p class="fourt"><i class="fa fa-file-code-o" aria-hidden="true"></i> competences.html</p></a>
+							<a class="details-link" href="contact.html"><p class="fourt"><i class="fa fa-file-code-o" aria-hidden="true"></i> contact.html</p></a>
+							<a class="details-link" href="divers.html"><p class="fourt"><i class="fa fa-file-code-o" aria-hidden="true"></i> divers.html</p></a>
+							<a class="details-link" href="exp_pro.html"><p class="fourt"><i class="fa fa-file-code-o" aria-hidden="true"></i> exp-pro.html</p></a>
+							<a class="details-link" href="formations.html"><p class="fourt"><i class="fa fa-file-code-o" aria-hidden="true"></i> formations.html</p></a>
+							<a class="details-link" href="#"><p class="fourt h-active"><i class="fa fa-file-code-o" aria-hidden="true"></i> style.html</p></a>
+						</div>
 					</details>
 				</details>
 				<a class="details-link" href="../../index.html"><p class="second"><i class="fa fa-file-code-o" aria-hidden="true"></i> index.html</p></a>
@@ -38,11 +40,11 @@
 			<div class="up-menu">
 				<div class="index-tab tab"><a class="up-menu-nav" href="../../index.html">index.html</a></div>
 				<div class="formations-tab tab"><a class="up-menu-nav" href="formations.html">formations.html</a></div>
-				<div class="exp-pro-tab tab active"><a class="up-menu-nav" href="#">exp-pro.html</a></div>
+				<div class="exp-pro-tab tab"><a class="up-menu-nav" href="exp_pro.html">exp-pro.html</a></div>
 				<div class="competences-tab tab"><a class="up-menu-nav" href="competences.html">competences.html</a></div>
 				<div class="divers-tab tab"><a class="up-menu-nav" href="divers.html">divers.html</a></div>
 				<div class="contact-tab tab"><a class="up-menu-nav" href="contact.html">contact.html</a></div>
-				<div class="style-tab tab"><a class="up-menu-nav" href="style.html">style.css</a></div>
+				<div class="style-tab tab active"><a class="up-menu-nav" href="#">style.css</a></div>
 			</div>
 			<div class="page-container">
 				<div class="main-content">
@@ -62,25 +64,12 @@
 					<p class="d">&lt;<span class="balise">h2</span>&gt;Présentation&lt;/<span class="balise">h2</span>&gt;</p>
 
 					<div class="paragraphe d"><p>&lt;<span class="balise">p</span>&gt;Bonjour, je m'appelle Idriss Cornuau et je vous souhaite la bienvenue sur mon CV version HTML/CSS. Vous trouverez ci joint les différentes rubriques me concernant, j'espère que vous passerez une agréable visite et que peut être même ce que vous verrez vous plaira !&lt;/<span class="balise">p</span>&gt;</p></div>
-
-					<p class="d">&lt;<span class="balise">nav</span> <span class="attribut">class</span>=<span class="argument">"nav-menu"</span>&gt;</p>
-
-					<div class="display-flex"><p class="e">&lt;<span class="balise">a</span> <span class="attribut">id</span>=<span class="argument">"formations"</span> <span class="attribut">href</span>=<span class="argument">"assets/rubriques/formations.html"</span>&gt;</p><a class="main-link" href="assets/rubriques/formations.html">Formations</a><p>&lt;/<span class="balise">a</span>&gt;</p></div>
-
-					<div class="display-flex"><p class="e">&lt;<span class="balise">a</span> <span class="attribut">id</span>=<span class="argument">"experiences"</span> <span class="attribut">href</span>=<span class="argument">"assets/rubriques/exp_pro.html"</span>&gt;</p><a class="main-link" href="assets/rubriques/experiences.html">Expériences</a><p>&lt;/<span class="balise">a</span>&gt;</p></div>
-
-					<div class="display-flex"><p class="e">&lt;<span class="balise">a</span> <span class="attribut">id</span>=<span class="argument">"competences"</span> <span class="attribut">href</span>=<span class="argument">"assets/rubriques/competences.html"</span>&gt;</p><a class="main-link" href="assets/rubriques/competences.html">Compétences</a><p>&lt;/<span class="balise">a</span>&gt;</p></div>
-
-					<div class="display-flex"><p class="e">&lt;<span class="balise">a</span> <span class="attribut">id</span>=<span class="argument">"divers"</span> <span class="attribut">href</span>=<span class="argument">"assets/rubriques/divers.html"</span>&gt;</p><a class="main-link" href="assets/rubriques/divers.html">Divers</a><p>&lt;/<span class="balise">a</span>&gt;</p></div>
-
-					<div class="display-flex"><p class="e">&lt;<span class="balise">a</span> <span class="attribut">id</span>=<span class="argument">"contact"</span> <span class="attribut">href</span>=<span class="argument">"assets/rubriques/contact.html"</span>&gt;</p><a class="main-link" href="assets/rubriques/contact.html">Contact</a><p>&lt;/<span class="balise">a</span>&gt;</p></div>
-
-					<p class="d">&lt;/<span class="balise">nav</span>&gt;</p>
-					<p class="c">&lt;/<span class="balise">main</span>&gt;</p>
-					<p class="b">&lt;/<span class="balise">body</span>&gt;</p>
-					<p class="a">&lt;/<span class="balise">html</span>&gt;</p>
+					<div style="position: relative; left: -25px;">
+						<img id="style_css_1.png" src="../images/style_css_1.png">
+						<img style="position: relative; top: -5px;" id="style_css_2.png" src="../images/style_css_2.png">
+						<img style="position: relative; top: -13px;" id="style_css_3.png" src="../images/style_css_3.png">
+					</div>
 				</div>
-				<div class="slide-bar"></div>
 			</div>
 		</main>
 		<footer>
