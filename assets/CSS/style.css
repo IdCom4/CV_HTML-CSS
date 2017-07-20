@@ -26,6 +26,7 @@ a:hover {
 	background-color: grey; 
 }
 header {
+	position: fixed;
 	background-color: lightgrey;
 	color: black;
 	height: 100vh;
@@ -51,6 +52,8 @@ header h1 {
 	margin-left: 20px;
 }
 .up-menu {
+	margin-left: 15vw;
+	position: fixed;
 	background-color: black;
 	height: 20px;
 	width: 85vw;
@@ -80,6 +83,9 @@ header h1 {
 	justify-content: space-between;
 }
 .slide-bar {
+	position: fixed;
+	top: 20px;
+	right: 0;
 	background-color: #111111;
 	width: 15px;
 	height: 97vh;
@@ -88,6 +94,8 @@ header h1 {
 	
 }
 .main-content {
+	margin-top: 20px;
+	margin-left: 15vw;
 	background-color: #1e1e1e;
 	padding: 15px 0 0 25px;
 	width: 60vw;
