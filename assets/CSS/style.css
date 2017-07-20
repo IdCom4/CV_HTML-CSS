@@ -45,10 +45,10 @@ header h1 {
 	margin-left: 12px;
 }
 .third {
-	margin-left: 18px;
+	margin-left: 16px;
 }
 .fourth {
-	margin-left: 24px;
+	margin-left: 20px;
 }
 .up-menu {
 	background-color: black;
@@ -121,4 +121,7 @@ p {
 }
 .e {
 	margin-left: 160px;
+}
+.f {
+	margin-left: 200px;
 }
